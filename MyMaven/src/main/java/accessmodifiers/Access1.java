@@ -29,7 +29,10 @@ public class Access1
 	{
 		
 		System.out.println(l);
+		System.out.println("This is a default method added");
+	
 	}
+	
 
 	/*public static void main(String args[]) 
 	

@@ -20,3 +20,4 @@ public class ChildSample extends ParentSample
 	}
 
 }
+

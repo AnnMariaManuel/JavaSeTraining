@@ -6,7 +6,7 @@ public class ChildSample extends ParentSample
 	public void print()
 	{
 		
-		System.out.println("This is a child class modified");
+		System.out.println("This is a child class modified now");
 	}
 
 	public static void main(String[] args) 

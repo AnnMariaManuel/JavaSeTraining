@@ -12,7 +12,7 @@ public class ChildClass extends ParentClass
 		
 		System.out.println("Value of i and j is : " +i + "and " +j);
 		
-		System.out.println("value of i and j from parent class is " +super.i + "and " +super.j);
+		System.out.println("value of i and j from parent class is " +super.i + "and " +super.j);//calling i and j from parent class
 		
 		//calling parent method from child
 		super.add();

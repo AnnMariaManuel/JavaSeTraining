@@ -20,24 +20,13 @@ public class Sample1
 		System.out.println();
 	}
 	
-	static void print()
-	{
-		
-		Sample1 obj2= new Sample1();
-		
-		System.out.println("Value of instance variable a is :" +obj2.a);
-		System.out.println("Value of instance variable b is :" +obj2.b);
-		System.out.println("Value of static  variable d is :" +d);
-		//System.out.println("Value of local variable c is :" +c);--cannot be printed as c is a local variable in method dsplay 
-		
-	}
+	
 	
 	public static void main(String[] args) 
 	{
 		
-		Sample1 obj1= new Sample1();
-		obj1.display();
-		Sample1.print();
+	Test.print();
+
 	}
 
 }

@@ -4,33 +4,29 @@ public class Bank
 
 {
 	
-	private int pin1=123;
-	private int pin2=245;
-	private String name= "Ann";
+	private int pin;
+	
+	public void setdetail(int pin)
+	{
+		this.pin=pin;
+	}
 	
 	
-	
-	public void getdetail(String username , int userpin)
+	public void getdetail()
 	{
 		
-		if (username.equals(name))
+		if((pin==1001)|(pin==1234)|(pin==1212))
+			{
 			
-				{
-					if(((userpin==pin1)|(userpin==pin2)))
-					{
-						System.out.println("Valid credentials");
-					}
-					else 
-					{
-						System.out.println("Invalid credentials!!");
-					}
-					
-				}
+			System.out.println("Valid ATM PIN Entered..Please Proceed with cash withdrawal!");
+		
+			}
 		
 		else
 		{
-			System.out.println("Username or pin entered is Wrong !! Try again");
+			System.out.println("Invalid PIN entered !!");
 		}
+		
 	}
 
 }

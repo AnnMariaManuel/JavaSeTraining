@@ -11,13 +11,13 @@ public class UserDetails {
 	
 	{
 		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter user name :");
-		String username= sc.next();
-		System.out.println("Enter teh ATM PIN :");
+		System.out.println("Enter your ATM PIN Number :");
 		int userpin=sc.nextInt();
 		
-		Bank obj= new Bank();
-		obj.getdetail(username, userpin);
+		Bank b= new Bank();
+		b.setdetail(userpin);
+		b.getdetail();
+		
 		sc.close();
 
 	}

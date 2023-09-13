@@ -5,7 +5,7 @@ public class TestChild extends Sample
 {
 	TestChild()
 	{
-		System.out.println("This is child class constructor ");
+		System.out.println("This is default child class constructor ");
 	}
 	
 	
@@ -23,8 +23,8 @@ public class TestChild extends Sample
 	public static void main(String[] args)
 	
 	{
-		TestChild tc=new TestChild();
-		TestChild tc1= new TestChild(1,2);
+		TestChild tc=new TestChild();//default constructor of parent and child will  be called
+		//TestChild tc1= new TestChild(1,2);
 		//tc.show();
 		//tc.display();
 		//TestChild tc1=new Sample(2,3);

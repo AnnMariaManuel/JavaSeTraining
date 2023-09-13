@@ -31,7 +31,7 @@ public class MethodCollections
 		a2.addAll(al);
 		System.out.println("Collection a2 after adding all elements from al arraylist is :" +a2);
 		
-		//iterator interface 
+		
 		
 		
 		
@@ -58,6 +58,7 @@ public class MethodCollections
 		
 		System.out.println("The element in 3rd index of  arraylist is :" +al.get(3));
 		
+		//iterator interface 
 		
 		Iterator itr= al.iterator();
 		
